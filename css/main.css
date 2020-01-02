@@ -1,0 +1,405 @@
+a {
+  color: #fff !important;
+}
+a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.padding-null {
+  padding: 0 !important;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.overflow-scroll {
+  height: calc(100vh - 163px);
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b6b6b;
+  border-radius: 25px;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+header {
+  background-color: transparent;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  justify-content: center;
+}
+header .brand {
+  display: flex;
+  align-items: center;
+  padding: 15px 9px;
+}
+header .brand img {
+  width: 77px;
+  height: 44px;
+  object-fit: cover;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s;
+  height: 100%;
+  padding: 15px 0;
+}
+header nav .navigation-bar li {
+  padding: 10px 0;
+  position: relative;
+  margin-left: 15px;
+}
+header nav .navigation-bar li:hover .inner-menu {
+  opacity: 1;
+  visibility: visible;
+}
+header nav .navigation-bar li .inner-menu {
+  position: absolute;
+  background: #000;
+  width: 400px;
+  left: 0;
+  top: 70px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s all;
+}
+header nav .navigation-bar li .inner-menu .inner-item {
+  margin-left: 0;
+  width: 100%;
+  padding: 10px 25px 0 25px;
+}
+header nav .navigation-bar li .inner-menu .inner-item:last-child {
+  padding-bottom: 10px;
+}
+header nav .navigation-bar li:first-child {
+  margin-left: 0;
+}
+header nav .navigation-bar li a:hover {
+  color: #ff9a00 !important;
+  border-bottom: 1px solid #ff9a00;
+}
+header .toggle {
+  display: none;
+}
+header .user-icon {
+  display: flex;
+  align-items: center;
+}
+header .user-icon li {
+  margin-right: 15px;
+}
+
+.cancel {
+  display: none;
+}
+
+.menu-toggle {
+  transform: translateX(0px) !important;
+  transition: all 0.5s !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.menu-toggle .cancel {
+  display: block;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.menu-toggle .navigation-bar {
+  flex-direction: column;
+}
+.menu-toggle .navigation-bar li {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.main {
+  background-image: url("../img/drawable-hdpi/greg_jeanneau_145136_unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main .brand {
+  padding: 9px 22px;
+}
+
+aside {
+  background-color: #161a1d;
+  padding-top: 22px;
+  height: 100vh;
+}
+aside .social-icon {
+  margin-top: 30px;
+}
+aside .social-icon div {
+  background-color: #ff9a00;
+  margin: 0;
+  width: 2.3rem;
+}
+aside .social-icon div a {
+  color: #000 !important;
+  margin: 2px 0;
+}
+aside .content {
+  margin-top: 40px;
+  color: #ffffff;
+  width: 65%;
+  padding-left: 60px;
+}
+aside .content a {
+  display: inline-block;
+  background-color: #039022;
+  padding: 10px 35px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .show-gallery img {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    height: 50vh;
+  }
+
+  aside {
+    height: initial;
+    padding: 250px 0;
+  }
+}
+@media (max-width: 768px) {
+  header div .toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px;
+  }
+  header div .toggle i {
+    font-size: 24px;
+  }
+
+  .menu {
+    position: absolute;
+  }
+
+  .inner-menu {
+    left: 120px !important;
+    top: 0 !important;
+  }
+}
+.main-about {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.first-main-about {
+  background-image: url("../img/drawable-hdpi/patryk_sobczak_162368_unsplash.jpg");
+}
+.first-main-about:hover .overlay {
+  transform: scale(0);
+}
+
+.last-main-about {
+  background-image: url("../img/drawable-hdpi/monika_grabkowska_759473_unsplash.png");
+}
+.last-main-about:hover .overlay {
+  transform: scale(0);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.content {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#wrapper-gallery {
+  height: 100vh;
+  padding-top: 74px;
+}
+#wrapper-gallery .gallery-img-item {
+  height: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+#wrapper-gallery .gallery-img-item .overlay-gallery-img {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: 0.5s all;
+  cursor: pointer;
+}
+#wrapper-gallery .image-gallery {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+#wrapper-gallery .show-gallery .img-show-gallery {
+  height: 100%;
+  position: relative;
+  height: calc(100vh - 74px);
+}
+#wrapper-gallery .show-gallery .img-show-gallery img {
+  width: 100%;
+  height: calc(100vh - 74px);
+  object-fit: cover;
+  transform: scale(0);
+  transition: 1s all;
+  position: absolute;
+  z-index: 99;
+}
+#wrapper-gallery .show-gallery .img-show-gallery .gallery-icon-overlay {
+  background: #ff9a00;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+#wrapper-menu {
+  padding-top: 74px;
+  height: calc(100vh - 74px);
+}
+#wrapper-menu .menu-item-page {
+  position: relative;
+}
+#wrapper-menu .menu-item-page:hover .overlay-menu-item {
+  transform: scale(0);
+}
+#wrapper-menu .menu-item-page .overlay-menu-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+#wrapper-menu .menu-item-page img {
+  width: 100%;
+  height: calc(100vh - 74px);
+  object-fit: cover;
+}
+
+#wrapper-soup {
+  padding-top: 74px;
+  height: calc(100vh - 74px);
+}
+#wrapper-soup .soup-product-container {
+  height: calc(100vh - 74px);
+  overflow: scroll;
+}
+#wrapper-soup .soup-product {
+  padding-top: 50px;
+}
+#wrapper-soup .soup-product .soup-product-item .soup-product-overlay-container {
+  position: relative;
+}
+#wrapper-soup .soup-product .soup-product-item .soup-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 1s all;
+}
+#wrapper-soup .soup-product .soup-product-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#wrapper-soup .soup-product .soup-product-item .product-soup-description {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#wrapper-soup .soup-product .soup-product-item .product-soup-description .soup-more-info {
+  background: #33b450;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#wrapper-soup .soup-product .soup-product-item a {
+  color: #000 !important;
+  border-bottom: #000 solid 1px;
+}
+
+.swal2-popup {
+  padding: 0 !important;
+}
+.swal2-popup .swal2-header {
+  width: 100%;
+}
+.swal2-popup .swal2-header img {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
