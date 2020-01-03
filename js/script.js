@@ -73,7 +73,34 @@ for(let soup of soupProduct){
     })
 }
 
+//Bag Page
+
+const btnDecrementCount = document.querySelectorAll('.btn-decrement');
+const btnIncrementCount = document.querySelectorAll('.btn-increment');
+const removeBagProduct = document.querySelectorAll('.bag-cancel');
 
 
+for(let btnDec of btnDecrementCount){
+    btnDec.addEventListener('click', decrementCount);
+}
+
+for(let btnIncr of btnIncrementCount){
+    btnIncr.addEventListener('click', incrementCount);
+}
+
+function decrementCount() {
+   if (this.nextElementSibling.value > 1){
+       +(this.nextElementSibling.value) --
+   }
+}
+
+function incrementCount() {
+    +(this.previousElementSibling.value) ++
+}
 
 
+for(let remove of removeBagProduct){
+    remove.addEventListener('click', function () {
+        this.parentElement.parentElement.parentElement.remove()
+    })
+}

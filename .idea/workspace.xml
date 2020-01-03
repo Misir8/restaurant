@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31f1fa5e-0875-4cc9-9577-00a3084101ed" name="Default Changelist" comment="" />
+    <list default="true" id="31f1fa5e-0875-4cc9-9577-00a3084101ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-hdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-hdpi/photo_1505253213348_ce_3_e_0_ff_1_f_0_cc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-hdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-mdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-mdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-mdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-mdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xxhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xxhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xxhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xxhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xxxhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xxxhdpi/photo_1490731678285_2_e_5640_f_5_a_918.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/drawable-xxxhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/drawable-xxxhdpi/photo_1518710339019_eee_82_fe_8_d_97_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soup.html" beforeDir="false" afterPath="$PROJECT_DIR$/soup.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="restaurant" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ve4tU3jzxOHhDLShAWn5MaBgqY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,7 +87,8 @@
       <workItem from="1577784920526" duration="13425000" />
       <workItem from="1577869252568" duration="10809000" />
       <workItem from="1577903354331" duration="1821000" />
-      <workItem from="1577958493567" duration="9843000" />
+      <workItem from="1577958493567" duration="10560000" />
+      <workItem from="1578046666377" duration="14658000" />
     </task>
     <servers />
   </component>
@@ -65,10 +96,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="692" y="377" key="#SCSS_Lint" timestamp="1577958655635">
+    <state x="692" y="377" key="#SCSS_Lint" timestamp="1578047199965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="377" key="#SCSS_Lint/0.0.1920.1040@0.0.1920.1040" timestamp="1577958655635" />
+    <state x="692" y="377" key="#SCSS_Lint/0.0.1920.1040@0.0.1920.1040" timestamp="1578047199965" />
     <state x="714" y="168" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577608451888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
