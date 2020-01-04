@@ -79,7 +79,7 @@ header{
 
         .inner-menu {
           position: absolute;
-          background: #000;
+          background: #313131;
           width: 400px;
           left: 0;
           top: 70px;
@@ -116,6 +116,48 @@ header{
     align-items: center;
     li{
       margin-right: 15px;
+      svg{
+        fill: #fff;
+        &:hover{
+          fill: #ff9a00;
+        }
+      }
+    }
+    .user-reg{
+      position: relative;
+      &:hover .user-reg-menu{
+          visibility: visible;
+          opacity: 1;
+      }
+      .user-reg-menu{
+        position: absolute;
+        top: 70px;
+        left: -40px;
+        background-color: #313131;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+        li{
+          margin: 0;
+          padding: 10px 0 ;
+          &:last-child{
+            padding-top: 0;
+          }
+          &:first-child{
+            padding-bottom: 0;
+            a{
+              border-bottom: none;
+            }
+          }
+          a{
+            padding: 3px 20px;
+            width: 100%;
+            display: inline-block;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+          }
+        }
+      }
     }
   }
 }
@@ -534,6 +576,7 @@ aside{
     padding: 70px 100px 70px 30px;
     ul {
       li {
+
         display: flex;
         justify-content: space-between;
          span:first-child::before {
@@ -543,6 +586,24 @@ aside{
            display: inline-block;
           width: 1em;
         }
+      }
+    }
+    form{
+      .btn-activate{
+        color: #fff !important;
+        background-color: #ff9a00;
+        padding: 5px 20px;
+      }
+      input{
+      }
+    }
+    .check-out{
+      margin-top: 250px;
+       .btn-check{
+        color: #fff !important;
+        background-color: #039022;
+         padding: 10px 30px;
+         display: inline-block;
       }
     }
   }
@@ -563,3 +624,58 @@ aside{
     }
   }
 
+
+  //Check out Page
+
+.field-check-out{
+  width: 70%;
+  margin: auto;
+  textarea:hover,
+  input[type="text"]:hover,
+  input[type="tel"]:hover,
+  input[type="email"]:hover,
+  textarea:active,
+  input[type="text"]:active,
+  input[type="tel"]:active,
+  input[type="email"]:active,
+  textarea:focus,
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  button:focus,
+  button:active,
+  button:hover,
+  label:focus,
+  .btn:active,
+  .btn.active
+  {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+  }
+  input{
+    border: none;
+    border-bottom: #E9E9E9 solid 1px;
+    border-radius: 0;
+  }
+  input::placeholder{
+    color: #000;
+  }
+  textarea{
+    height: 150px;
+  }
+  #confirm-order{
+    background-color: #33b450;
+    color: #fff !important;
+    padding: 10px 20px;
+  }
+}
+
+.check-out-side{
+  height: calc(100vh - 74px);
+  form{
+    .btn-activate{
+      background-color: #7b7b7b !important;
+    }
+  }
+}

@@ -77,7 +77,7 @@ header nav .navigation-bar li:hover .inner-menu {
 }
 header nav .navigation-bar li .inner-menu {
   position: absolute;
-  background: #000;
+  background: #313131;
   width: 400px;
   left: 0;
   top: 70px;
@@ -109,6 +109,48 @@ header .user-icon {
 }
 header .user-icon li {
   margin-right: 15px;
+}
+header .user-icon li svg {
+  fill: #fff;
+}
+header .user-icon li svg:hover {
+  fill: #ff9a00;
+}
+header .user-icon .user-reg {
+  position: relative;
+}
+header .user-icon .user-reg:hover .user-reg-menu {
+  visibility: visible;
+  opacity: 1;
+}
+header .user-icon .user-reg .user-reg-menu {
+  position: absolute;
+  top: 70px;
+  left: -40px;
+  background-color: #313131;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+header .user-icon .user-reg .user-reg-menu li {
+  margin: 0;
+  padding: 10px 0;
+}
+header .user-icon .user-reg .user-reg-menu li:last-child {
+  padding-top: 0;
+}
+header .user-icon .user-reg .user-reg-menu li:first-child {
+  padding-bottom: 0;
+}
+header .user-icon .user-reg .user-reg-menu li:first-child a {
+  border-bottom: none;
+}
+header .user-icon .user-reg .user-reg-menu li a {
+  padding: 3px 20px;
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .cancel {
@@ -506,6 +548,20 @@ aside .content a {
   display: inline-block;
   width: 1em;
 }
+#bag-wrapper .bag-aside form .btn-activate {
+  color: #fff !important;
+  background-color: #ff9a00;
+  padding: 5px 20px;
+}
+#bag-wrapper .bag-aside .check-out {
+  margin-top: 250px;
+}
+#bag-wrapper .bag-aside .check-out .btn-check {
+  color: #fff !important;
+  background-color: #039022;
+  padding: 10px 30px;
+  display: inline-block;
+}
 
 .swal2-popup {
   padding: 0 !important;
@@ -518,6 +574,56 @@ aside .content a {
   height: auto;
   margin: 0 !important;
   object-fit: cover;
+}
+
+.field-check-out {
+  width: 70%;
+  margin: auto;
+}
+.field-check-out textarea:hover,
+.field-check-out input[type=text]:hover,
+.field-check-out input[type=tel]:hover,
+.field-check-out input[type=email]:hover,
+.field-check-out textarea:active,
+.field-check-out input[type=text]:active,
+.field-check-out input[type=tel]:active,
+.field-check-out input[type=email]:active,
+.field-check-out textarea:focus,
+.field-check-out input[type=text]:focus,
+.field-check-out input[type=tel]:focus,
+.field-check-out input[type=email]:focus,
+.field-check-out button:focus,
+.field-check-out button:active,
+.field-check-out button:hover,
+.field-check-out label:focus,
+.field-check-out .btn:active,
+.field-check-out .btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.field-check-out input {
+  border: none;
+  border-bottom: #E9E9E9 solid 1px;
+  border-radius: 0;
+}
+.field-check-out input::placeholder {
+  color: #000;
+}
+.field-check-out textarea {
+  height: 150px;
+}
+.field-check-out #confirm-order {
+  background-color: #33b450;
+  color: #fff !important;
+  padding: 10px 20px;
+}
+
+.check-out-side {
+  height: calc(100vh - 74px);
+}
+.check-out-side form .btn-activate {
+  background-color: #7b7b7b !important;
 }
 
 /*# sourceMappingURL=main.css.map */
