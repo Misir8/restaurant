@@ -634,14 +634,17 @@ aside{
   input[type="text"]:hover,
   input[type="tel"]:hover,
   input[type="email"]:hover,
+  input[type="password"]:hover,
   textarea:active,
   input[type="text"]:active,
   input[type="tel"]:active,
   input[type="email"]:active,
+  input[type="password"]:active,
   textarea:focus,
   input[type="text"]:focus,
   input[type="tel"]:focus,
   input[type="email"]:focus,
+  input[type="password"]:focus,
   button:focus,
   button:active,
   button:hover,
@@ -677,5 +680,143 @@ aside{
     .btn-activate{
       background-color: #7b7b7b !important;
     }
+  }
+}
+
+//Register Page
+
+#reg-wrapper{
+  .registr-img{
+    background-image: url("../img/drawable-hdpi/registr-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+  }
+  form{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    textarea:hover,
+    input[type="text"]:hover,
+    input[type="tel"]:hover,
+    input[type="email"]:hover,
+    input[type="password"]:hover,
+    textarea:active,
+    input[type="text"]:active,
+    input[type="password"]:active,
+    input[type="tel"]:active,
+    input[type="email"]:active,
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+    {
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important;
+    }
+    input{
+      border: none;
+      border-bottom: #E9E9E9 solid 1px;
+      border-radius: 0;
+      background-color: transparent;
+      color: #fff;
+    }
+    input::placeholder{
+      color: #fff;
+    }
+    .sign-up{
+      margin-top: 6rem;
+      span{
+        color: #333639;
+      }
+      a{
+        color: #ffffff;
+      }
+      .sign{
+        display: inline-block;
+        padding: 10px 50px;
+        background-color: #039022;
+      }
+      .sign-in{
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+}
+
+
+//Profile info
+#reg-wrapper{
+  .profile-info{
+    .form-item{
+      position: relative;
+      span{
+       position: absolute;
+        top: 7px;
+        color: #7b7b7b;
+      }
+    }
+    height: 100vh;
+    padding-top: 74px !important;
+    .edit-profile-info-btn{
+      margin-top: 20px;
+      a{
+        background-color: #33b450;
+        display: inline-block;
+        padding: 10px 60px;
+      }
+    }
+    form{
+      padding: 0;
+      input{
+        color: #000000 !important;
+        padding-left: 85px;
+      }
+      .email{
+        padding-left: 60px;
+      }
+      .number{
+        padding-left: 115px;
+      }
+    }
+  }
+  .user-nav{
+    padding-top: 74px !important;
+    ul{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      li{
+        a{
+          transition: all .5s;
+          border: transparent;
+         &:hover{
+           color: #ff9a00 !important;
+           border-bottom: 1px solid #ff9a00;
+         }
+        }
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &:first-child{
+          padding-right: 150px;
+        }
+        &:last-child{
+          padding-left: 150px;
+        }
+      }
+    }
+
   }
 }

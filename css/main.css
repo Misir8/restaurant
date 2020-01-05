@@ -584,14 +584,17 @@ aside .content a {
 .field-check-out input[type=text]:hover,
 .field-check-out input[type=tel]:hover,
 .field-check-out input[type=email]:hover,
+.field-check-out input[type=password]:hover,
 .field-check-out textarea:active,
 .field-check-out input[type=text]:active,
 .field-check-out input[type=tel]:active,
 .field-check-out input[type=email]:active,
+.field-check-out input[type=password]:active,
 .field-check-out textarea:focus,
 .field-check-out input[type=text]:focus,
 .field-check-out input[type=tel]:focus,
 .field-check-out input[type=email]:focus,
+.field-check-out input[type=password]:focus,
 .field-check-out button:focus,
 .field-check-out button:active,
 .field-check-out button:hover,
@@ -624,6 +627,133 @@ aside .content a {
 }
 .check-out-side form .btn-activate {
   background-color: #7b7b7b !important;
+}
+
+#reg-wrapper .registr-img {
+  background-image: url("../img/drawable-hdpi/registr-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+#reg-wrapper form {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#reg-wrapper form textarea:hover,
+#reg-wrapper form input[type=text]:hover,
+#reg-wrapper form input[type=tel]:hover,
+#reg-wrapper form input[type=email]:hover,
+#reg-wrapper form input[type=password]:hover,
+#reg-wrapper form textarea:active,
+#reg-wrapper form input[type=text]:active,
+#reg-wrapper form input[type=password]:active,
+#reg-wrapper form input[type=tel]:active,
+#reg-wrapper form input[type=email]:active,
+#reg-wrapper form textarea:focus,
+#reg-wrapper form input[type=text]:focus,
+#reg-wrapper form input[type=tel]:focus,
+#reg-wrapper form input[type=email]:focus,
+#reg-wrapper form input[type=password]:focus,
+#reg-wrapper form button:focus,
+#reg-wrapper form button:active,
+#reg-wrapper form button:hover,
+#reg-wrapper form label:focus,
+#reg-wrapper form .btn:active,
+#reg-wrapper form .btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+#reg-wrapper form input {
+  border: none;
+  border-bottom: #E9E9E9 solid 1px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+}
+#reg-wrapper form input::placeholder {
+  color: #fff;
+}
+#reg-wrapper form .sign-up {
+  margin-top: 6rem;
+}
+#reg-wrapper form .sign-up span {
+  color: #333639;
+}
+#reg-wrapper form .sign-up a {
+  color: #ffffff;
+}
+#reg-wrapper form .sign-up .sign {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #039022;
+}
+#reg-wrapper form .sign-up .sign-in {
+  border-bottom: 1px solid #fff;
+}
+
+#reg-wrapper .profile-info {
+  height: 100vh;
+  padding-top: 74px !important;
+}
+#reg-wrapper .profile-info .form-item {
+  position: relative;
+}
+#reg-wrapper .profile-info .form-item span {
+  position: absolute;
+  top: 7px;
+  color: #7b7b7b;
+}
+#reg-wrapper .profile-info .edit-profile-info-btn {
+  margin-top: 20px;
+}
+#reg-wrapper .profile-info .edit-profile-info-btn a {
+  background-color: #33b450;
+  display: inline-block;
+  padding: 10px 60px;
+}
+#reg-wrapper .profile-info form {
+  padding: 0;
+}
+#reg-wrapper .profile-info form input {
+  color: #000000 !important;
+  padding-left: 85px;
+}
+#reg-wrapper .profile-info form .email {
+  padding-left: 60px;
+}
+#reg-wrapper .profile-info form .number {
+  padding-left: 115px;
+}
+#reg-wrapper .user-nav {
+  padding-top: 74px !important;
+}
+#reg-wrapper .user-nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#reg-wrapper .user-nav ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#reg-wrapper .user-nav ul li a {
+  transition: all 0.5s;
+  border: transparent;
+}
+#reg-wrapper .user-nav ul li a:hover {
+  color: #ff9a00 !important;
+  border-bottom: 1px solid #ff9a00;
+}
+#reg-wrapper .user-nav ul li:first-child {
+  padding-right: 150px;
+}
+#reg-wrapper .user-nav ul li:last-child {
+  padding-left: 150px;
 }
 
 /*# sourceMappingURL=main.css.map */
