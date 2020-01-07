@@ -104,3 +104,59 @@ for(let remove of removeBagProduct){
         this.parentElement.parentElement.parentElement.remove()
     })
 }
+
+//address edit page
+
+//address delete
+function addressDelete(){
+    const addressDeleteBtn = document.querySelectorAll('.icon-address-delete');
+    for(let btn of addressDeleteBtn){
+        btn.addEventListener('click', function () {
+            this.parentElement.parentElement.remove()
+        })
+    }
+}
+addressDelete();
+//add new address
+
+const inputAddressAdd = document.querySelector('.add-address');
+const btnAddAddress = document.querySelector('.btn-add-address');
+const addressTable = document.querySelector('.table-address-edit table tbody');
+const addressArr = [];
+
+
+class Address {
+    constructor(name) {
+        this.name = name
+    }
+}
+
+if (btnAddAddress !== null){
+    btnAddAddress.addEventListener('click', function (e) {
+        e.preventDefault();
+        if(inputAddressAdd.value !== ''){
+            const address = new Address(inputAddressAdd.value);
+            addressArr.push(address);
+            const tr = document.createElement('tr');
+            const td = document.createElement('td');
+            const span = document.createElement('span');
+            const span2 = document.createElement('span');
+
+            td.setAttribute('scope', 'row');
+            span2.classList.add('icon-address-table');
+            span2.classList.add('icon-address-delete');
+            td.append(span);
+            td.append(span2);
+            tr.append(td);
+            addressTable.append(tr);
+            span.textContent = address.name;
+            span2.innerHTML = '<i class="fas fa-times"></i>';
+            resetInput(inputAddressAdd);
+            addressDelete()
+        }
+    });
+}
+
+function resetInput(input) {
+    input.value = ''
+}

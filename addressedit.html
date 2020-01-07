@@ -5,22 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
+    <title>Address edit</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header class="bg-black">
+<header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-8 col-6  padding-null">
+            <div class="col-xl-7 col-lg-7 col-6 bg-white  padding-null">
                 <div class="brand">
-                    <a href="index.html"><img src="img/drawable-hdpi/gabriels_bakery_logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="img/gabriels_bakery_logo.png" alt="logo"></a>
                 </div>
             </div>
-            <div class="col-xl-4 col-6 padding-null">
+            <div class="col-xl-5 col-lg-5 col-6 padding-null bg-black">
                 <div class="toggle">
-                    <i class="fas fa-bars text-white"></i>
+                    <i class="fas fa-bars"></i>
                 </div>
                 <nav class="menu">
                     <div class="cancel">&#10006;</div>
@@ -56,7 +56,7 @@
                         <li>
                             <a href="bag.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
-                                    <path fill="#FFF" fill-rule="nonzero" d="M.602 13.63h.704a2.267 2.267 0 0 0 .367 2.71c.426.426.998.66 1.615.66a2.29 2.29 0 0 0 1.614-.66c.426-.424.66-.996.66-1.612a2.2 2.2 0 0 0-.293-1.099H8.1a2.267 2.267 0 0 0 .367 2.712c.426.425.998.659 1.615.659a2.29 2.29 0 0 0 1.614-.66c.426-.424.66-.996.66-1.612a2.2 2.2 0 0 0-.293-1.099h.763a.595.595 0 0 0 .602-.6c0-.338-.264-.601-.602-.601H1.203v-1.173h13.21a.595.595 0 0 0 .572-.44l1.996-7.283a.587.587 0 0 0-.103-.513.613.613 0 0 0-.47-.235H1.203V.601C1.203.264.94 0 .602 0A.595.595 0 0 0 0 .6v12.414c0 .352.264.615.602.615zm8.703.336a1.067 1.067 0 0 1 1.526 0 1.064 1.064 0 0 1 0 1.525 1.1 1.1 0 0 1-1.526 0 1.07 1.07 0 0 1 0-1.525zm-6.78 0a1.067 1.067 0 0 1 1.526 0 1.064 1.064 0 0 1 0 1.525 1.1 1.1 0 0 1-1.527 0 1.07 1.07 0 0 1 0-1.525zM1.202 3.972h14.413l-1.673 6.096H1.203V3.972z"/>
+                                    <path  fill-rule="nonzero" d="M.602 13.63h.704a2.267 2.267 0 0 0 .367 2.71c.426.426.998.66 1.615.66a2.29 2.29 0 0 0 1.614-.66c.426-.424.66-.996.66-1.612a2.2 2.2 0 0 0-.293-1.099H8.1a2.267 2.267 0 0 0 .367 2.712c.426.425.998.659 1.615.659a2.29 2.29 0 0 0 1.614-.66c.426-.424.66-.996.66-1.612a2.2 2.2 0 0 0-.293-1.099h.763a.595.595 0 0 0 .602-.6c0-.338-.264-.601-.602-.601H1.203v-1.173h13.21a.595.595 0 0 0 .572-.44l1.996-7.283a.587.587 0 0 0-.103-.513.613.613 0 0 0-.47-.235H1.203V.601C1.203.264.94 0 .602 0A.595.595 0 0 0 0 .6v12.414c0 .352.264.615.602.615zm8.703.336a1.067 1.067 0 0 1 1.526 0 1.064 1.064 0 0 1 0 1.525 1.1 1.1 0 0 1-1.526 0 1.07 1.07 0 0 1 0-1.525zm-6.78 0a1.067 1.067 0 0 1 1.526 0 1.064 1.064 0 0 1 0 1.525 1.1 1.1 0 0 1-1.527 0 1.07 1.07 0 0 1 0-1.525zM1.202 3.972h14.413l-1.673 6.096H1.203V3.972z"/>
                                 </svg>
                             </a>
                         </li>
@@ -68,36 +68,70 @@
 
 
 </header>
-<div id="wrapper-about">
+<div id="reg-wrapper">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-12 padding-null">
-                <a href="gallery.html" class="main-about first-main-about d-block">
-                    <div class="overlay"></div>
-                    <div class="content d-flex flex-column align-items-center justify-content-center text-white">
-                        <h2>Restaurant</h2>
-                        <div>157 PIC</div>
+            <div class="col-lg-7 padding-null profile-info">
+                <div class="h-100 d-flex flex-column justify-content-center">
+                    <h2 class="text-center mb-5">Orders history</h2>
+                    <div class="table-order-history table-address table-address-edit">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Address</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td scope="row"><input type="text" class="add-address" placeholder="Add new address..."></td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    <span>Brooklyn College 290 Bedford Avenue Brooklyn, NY 11210</span>
+                                    <span class="icon-address-table bg-success"><i class="fas fa-check"></i></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    <span>Brooklyn College 290 Bedford Avenue Brooklyn, NY 11210</span>
+                                    <span class="icon-address-table icon-address-delete"><i class="fas fa-times"></i></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    <span>Brooklyn College 290 Bedford Avenue Brooklyn, NY 11210</span>
+                                    <span class="icon-address-table icon-address-delete"><i class="fas fa-times"></i></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    <span>Brooklyn College 290 Bedford Avenue Brooklyn, NY 11210</span>
+                                    <span class="icon-address-table icon-address-delete"><i class="fas fa-times"></i></span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="address-btn-edit mt-4 mb-5">
+                            <a href="" class="btn-add-address">Save</a>
+                        </div>
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 padding-null">
-                <a href="menu.html"  class="main-about last-main-about d-block">
-                    <div class="overlay"></div>
-                    <div class="content d-flex flex-column align-items-center justify-content-center text-white">
-                        <h2>Menu</h2>
-                        <div>58 PIC</div>
-                    </div>
-                </a>
+            <div class="col-lg-5 padding-null bg-black user-nav" style="height: inherit;">
+                <ul>
+                    <li><a href="profileinfo.html">PROFILE INFO</a></li>
+                    <li><a href="orderhistory.html">ORDERS HISTORY</a></li>
+                    <li><a href="">ADDRESSES</a></li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
-
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <script src="js/script.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </body>
 </html>
