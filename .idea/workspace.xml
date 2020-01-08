@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f1fa5e-0875-4cc9-9577-00a3084101ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressedit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderhistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressedit.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressedit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bag.html" beforeDir="false" afterPath="$PROJECT_DIR$/bag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderhistory.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderhistory.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profileinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/profileinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profileinfoedit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profileinfoedit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soup.html" beforeDir="false" afterPath="$PROJECT_DIR$/soup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +109,7 @@
       <workItem from="1578335184449" duration="20000" />
       <workItem from="1578335486061" duration="2000" />
       <workItem from="1578376881649" duration="21925000" />
+      <workItem from="1578463061540" duration="16943000" />
     </task>
     <servers />
   </component>
@@ -116,10 +121,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578131493487" />
-    <state x="692" y="377" key="#SCSS_Lint" timestamp="1578377822373">
+    <state x="692" y="377" key="#SCSS_Lint" timestamp="1578463953774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="377" key="#SCSS_Lint/0.0.1920.1040@0.0.1920.1040" timestamp="1578377822373" />
+    <state x="692" y="377" key="#SCSS_Lint/0.0.1920.1040@0.0.1920.1040" timestamp="1578463953773" />
     <state x="714" y="168" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577608451888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
